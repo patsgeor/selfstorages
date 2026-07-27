@@ -1,0 +1,26 @@
+{
+  "name": "Self Storages — Ενοικίαση Αποθηκών & Φορολογικής Έδρας",
+  "short_name": "Self Storages",
+  "description": "Ενοικίαση αποθηκών, παταριών και φορολογικής έδρας σε 6 σημεία της Αττικής. Οικογενειακή επιχείρηση από το 2015.",
+  "lang": "el",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0B5ED7",
+  "icons": [
+    {
+      "src": "/favicon/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
