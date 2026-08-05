@@ -1,22 +1,21 @@
 /.claude
+/node_modules
+/dist
+
+# --- Παραγόμενες σελίδες (build/generate.js τις γράφει στη ρίζα για τοπικό preview) ---
 /404.html
 /blog
 /browserconfig.xml
-/build
-/css
-/favicon
-/fonts
-/icons
-/images
 /index.html
-/js
 /manifest.json
-/node_modules
-/package-lock.json
-/package.json
 /pages
 /perioches
-/README.md
 /robots.txt
 /sitemap-images.xml
 /sitemap.xml
+
+# --- Παραγόμενα production assets (build/optimize.js) ---
+/css/app.min.css
+/js/*.min.js
+*.gz
+*.br

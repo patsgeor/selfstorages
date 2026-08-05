@@ -1,0 +1,21 @@
+{
+  "name": "claude-workpress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build/generate.js --prod && node build/optimize.js && node build/dist.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "csso": "^5.0.5",
+    "png-to-ico": "^3.0.2",
+    "purgecss": "^8.0.0",
+    "sharp": "^0.35.3",
+    "terser": "^5.49.0"
+  }
+}

@@ -1,9 +1,0 @@
-# robots.txt — Self Storages
-User-agent: *
-Allow: /
-
-# Δεν υπάρχει περιεχόμενο προς απόκρυψη· τα build αρχεία δεν ανεβαίνουν στο production.
-Disallow: /build/
-
-Sitemap: https://www.selfstorages.gr/sitemap.xml
-Sitemap: https://www.selfstorages.gr/sitemap-images.xml
